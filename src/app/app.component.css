@@ -24,7 +24,7 @@
   }
   
   /* Responsive Styles */
-@media screen and (max-width: 358px) {
+@media screen and (max-width: 317px) {
 .topnav a:not(:first-child) {display: none;}
 .topnav a.icon {
     float: right;

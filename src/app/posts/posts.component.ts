@@ -8,22 +8,29 @@ import { HttpClient } from '@angular/common/http';
 })
 export class PostsComponent  { 
 
-
   posts:any[]= [];
 
    constructor(private http: HttpClient) { 
-
    }
 
   ngOnInit() {
-    this.loadPosts();
-
- }
-
-  loadPosts(){
-    this.http.get('https://jsonplaceholder.typicode.com/posts').subscribe((posts: any) => {
-    this.posts = posts;
-  });
   }
 
+  createPost(){
+    this.http.post('https://jsonplaceholder.typicode.com/posts', {
+      title: 'This is post title',
+      body: 'This is post body'
+    }).subscribe((response: any) => {
+        alert(JSON.stringify(response));
+  }, 
+  (error)=> {alert(JSON.stringify(error))});
+  }
+
+  deletePost(){
+    this.http.delete('https://jsonplaceholder.typicode.com/posts/1')
+      .subscribe((response: any) => {
+        alert(JSON.stringify(response));
+  }, 
+  (error)=> {alert(JSON.stringify(error))});
+  }
 }

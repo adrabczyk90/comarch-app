@@ -3,11 +3,9 @@
 <div style="padding-left:16px">
     <h2>Top Navigation Example Home posts</h2>
   
-   <div *ngFor="let post of posts">
-    <h1>{{ post.title }}</h1>
-    <p>{{ post.body }}</p>
-    <hr />
-  </div>
-  
+    <button class="button-show-all"  routerLink="/allposts" routerLinkActive="active"  href="javascrpt:void(0)" >Load All Posts</button>
+    <button class="button-create"  (click)="createPost()"  href="javascrpt:void(0)" >Create Post</button>
+    <button class="button-delete"  (click)="deletePost()"  href="javascrpt:void(0)" >Delete Post</button>
+
 </div>
   
