@@ -4,6 +4,6 @@ import { Injectable } from "@angular/core";
     providedIn: 'root',
   })
   export class PostsService {
-    protected basePath = 'https://jsonplaceholder.typicode.com';
-    // ...
+    // protected basePath = 'https://jsonplaceholder.typicode.com';
+    // // ...
   }
