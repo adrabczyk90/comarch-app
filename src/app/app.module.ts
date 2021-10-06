@@ -10,23 +10,6 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { HttpClientModule } from '@angular/common/http';
 
-import { environment } from '../environments/environment';
-
-import {
-  ApiModule,
-  Configuration,
-  ConfigurationParameters,
-} from './core/api/v1';
-
-
-export function apiConfigFactory(): Configuration {
-  const params: ConfigurationParameters = {
-    basePath: environment.basePath,
-  };
-  return new Configuration(params);
-}
-
-
 @NgModule({
   declarations: [
     AppComponent,
