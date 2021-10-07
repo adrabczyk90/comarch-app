@@ -1,5 +1,4 @@
-.button-show-all{
-    background-color: blue;
+button{
     border: none;
     color: white;
     padding: 15px 32px;
@@ -9,31 +8,17 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-  }
+}
+
+.button-show-all{
+    background-color: blue;
+}
 
 
 .button-create {
     background-color: #008770;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+}
 
-  .button-delete {
+.button-delete {
     background-color: red;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+}
