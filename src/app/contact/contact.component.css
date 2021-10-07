@@ -11,3 +11,19 @@
     padding: 30px;
     border-radius: 5px;
 }
+
+h2 {
+  color: #63B7AF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  margin-top:10px;
+}
+
+.contact-title{
+  margin-left: 70%;
+  margin-top:30px;
+  margin-bottom:30px;
+  width: 90%;
+  margin-bottom: 10px;
+ }

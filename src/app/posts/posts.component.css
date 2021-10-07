@@ -22,3 +22,28 @@ button{
 .button-delete {
     background-color: red;
 }
+
+.posts-buttons{
+    margin: auto;
+    padding:20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 1px solid green;
+    width: 40%;
+  }
+  
+  h2 {
+    color: #63B7AF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top:10px;
+}
+
+.posts-title{
+   margin: 20px;
+   border-bottom: 1px solid rgb(2, 29, 2);
+   margin: auto;
+   width: 20%;
+   margin-bottom: 10px;
+  }
