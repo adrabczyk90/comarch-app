@@ -1,0 +1,10 @@
+.example-card {
+    max-width: 400px;
+    padding-left: 50px;
+    padding-top: 40px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://infotech.one/wp-content/uploads/2016/03/k1-1.png');
+    background-size: cover;
+  }
