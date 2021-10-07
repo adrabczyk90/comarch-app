@@ -1,0 +1,26 @@
+h2 {
+    color: #63B7AF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top:10px;
+}
+  
+p {
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+  
+.home{
+  margin: auto;
+  width: 80%;
+  border: 1px solid green;
+  padding:20px;
+  margin-top: 20px;
+}
+
+.home-title{
+    border-bottom: 1px solid rgb(2, 29, 2);
+    padding: 10px;
+  }
