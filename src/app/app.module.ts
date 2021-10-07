@@ -34,7 +34,7 @@ import { MatSelectModule,} from '@angular/material/select';
     MatCardModule,
     MatButtonModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
   ],
   exports: [ RouterModule ],
   providers: [],
